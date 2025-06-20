@@ -1,0 +1,50 @@
+div {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo {
+    background-color: rgb(34, 46, 55);
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center; 
+    height: 20vh;
+}
+
+#navegacion {
+    background-color: rgb(91, 134, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+#publicidad {
+    background-color: rgb(91, 134, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+#contenido {
+    background-color: rgb(153, 205, 98);
+    color: rgb(40, 56, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#pie {
+    background-color: rgb(208, 232, 138);
+    color: rgb(40, 56, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}

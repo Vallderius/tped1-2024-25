@@ -1,0 +1,24 @@
+.pantalla-completa {
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+#navegacion {
+    background-color: rgb(91, 134, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#contenido {
+    background-color: rgb(208, 232, 138);
+    color: rgb(40, 56, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
