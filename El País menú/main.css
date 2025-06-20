@@ -1,0 +1,150 @@
+body {
+    font-size: 15px;
+}
+header {
+    background: #003245;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+}
+.menu li {
+    display: inline;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.menu a:link {
+    color: rgb(176, 211, 230);
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: rgb(75, 129, 148);
+}
+
+.menu a:hover {
+    margin-left: 12px;
+    color: rgb(255, 255, 255);
+}
+.cabecera{
+    background-color: #003245;
+    padding: 10px 20px 0px;
+    display: flex;
+    margin: auto;
+    height: 100;
+}
+
+h5{
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Helvetica Neue thin, Helvetica Neue light, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.imgs{
+    background-image: url ('img/cabecera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 45px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h3{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+h4{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+h6{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+ul{
+    font-family: Helvetica, Arial, sans-serif;
+    color:rgb(61, 61, 61);
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a:link{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+a:visited{
+    color:rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(62, 62, 62);
+}
+
+.tlfnc1{
+    padding: 10px;
+    max-width: 520px;
+    margin: auto;
+    display: flex;
+}
+
+.tlfnc2{
+    padding: 10px;
+    max-width: 250px;
+    margin: auto;
+    display: flex;
+}
+
+.final{
+    padding-top: 1px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236, 236, 236);
+    font-size: smaller;  
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    margin: auto;
+    height: 35px;
+}
