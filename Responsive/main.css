@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 2rem; 
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    height: 20vh; 
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+    height: 20vh; 
+}
+main {
+    width: 100vw;
+    height: 60vh; 
+    display: flex;
+    flex-direction: row;
+
+}
+
+a:visited {
+    color: rgb(171, 180, 164);
+}
+
+a:hover {
+    color: rgb(66, 184, 29);
+    font-weight: bolder;
+}
+
+aside {
+    display: none;
+}
+
+#publicidad {
+    display: none; 
+}
+
+
+footer {
+    display: none; 
+}
+
+
+@media (min-width: 576px) {  
+
+}
+
+
+@media (min-width: 768px) {  
+    
+}
+
+
+@media (min-width: 992px) {  
+    aside {
+        display: block;
+        width: 20%;             
+    }
+    #centro { 
+        width: 80%;
+    }
+    nav {
+        height: 10vh;
+    }
+    header {
+        height: 10vh;
+    }
+    main {
+        height: 90vh;
+    }
+}
+
+
+@media (min-width: 1200px) {  
+    #publicidad, footer {
+        display: block; 
+    }
+    aside {
+        width: 20%;               
+    }
+    #centro { 
+        width: 60%;
+    }
+    #publicidad {
+        width: 20%;
+    }
+    nav {
+        height: 10vh;
+    }
+    main {
+        height: 80vh;
+    }
+    footer {
+        height: 10vh;
+    }
+}
