@@ -1,0 +1,66 @@
+div {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+#arriba {
+    background-color: rgb(34, 46, 55);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100px;
+}
+
+.col-3{
+    background-color: rgb(91, 134, 0);
+    color: white;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 760px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-6{
+    background-color: rgb(153, 205, 98);
+    font-size: smaller;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.piedefoto{
+    color:rgb(40, 56, 28);
+    font-size: small;
+}
+
+a:link{
+    color:rgb(40, 56, 28);
+    font-weight: 600;
+}
+
+a:visited{
+    color:rgb(40, 56, 28);
+}
+
+a:hover{
+    color: rgb(51, 117, 0);
+}
+
+
+#pie{
+    background-color: rgb(208, 232, 138);
+    color: rgb(40, 56, 28);
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 25px;
+}
