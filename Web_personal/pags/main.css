@@ -1,0 +1,50 @@
+div {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(34, 46, 55);
+}
+
+#logo {
+    background-color: rgb(34, 46, 55);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 20vh;
+}
+
+.col-4{
+    background-color: rgb(91, 134, 0);
+    color: white;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-8{
+    background-color: rgb(153, 205, 98);
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    background-color: rgb(34, 46, 55);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    color: rgb(153, 205, 98);
+}
+.carousel-indicators{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
